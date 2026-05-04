@@ -1,0 +1,15 @@
+.env
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+.DS_Store
+data/.DS_Store
+data/pdfs/
+data/split_pdfs/
+data/file_split_pdfs/
+data/output/*.json
+data/output/parent_context_scores/*.json
+data/output/fullfile*.csv
+src/FILE_*.py
+src/run_compare_pipelines.py
