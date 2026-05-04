@@ -305,10 +305,3 @@ git grep --cached -n "sk-\|OPENAI_API_KEY=.*[A-Za-z0-9_]" -- .
 - Very large PDF runs can create large JSON files locally if detailed outputs are enabled.
 - Some scores should be validated against human-coded examples before treating the system as final.
 
-## Suggested Next Steps
-
-1. Finish the parent-context run for any districts with errors.
-2. Compare original chunked scores against parent-context scores.
-3. Review changed scores manually, especially changes of 2 or more points in a category.
-4. Add human-labeled benchmark scores for validation.
-5. Tune keyword weights based on false positives and missed evidence.
